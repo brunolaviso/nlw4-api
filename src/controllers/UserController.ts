@@ -27,6 +27,12 @@ class UserController {
 
     return response.status(201).json(user)
   }
+
+  async index(request: Request, response: Response) {
+    const userRepository = getRepository(User)
+    const users = await userRepository.find()
+    return response.status(200).json(users)
+  }
 }
 
 export { UserController }
