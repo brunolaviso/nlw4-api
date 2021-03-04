@@ -1,6 +1,6 @@
-import { Request, Response } from "express";
-import { getCustomRepository } from "typeorm";
-import { SurveyRepository } from "../repositories/ServeysRepository";
+import { Request, Response } from "express"
+import { getCustomRepository } from "typeorm"
+import { SurveyRepository } from "../repositories/ServeysRepository"
 
 class SurveyController {
   async create(request: Request, response: Response) {

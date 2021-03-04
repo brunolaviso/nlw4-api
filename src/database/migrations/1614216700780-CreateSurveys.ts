@@ -1,4 +1,4 @@
-import {MigrationInterface, QueryRunner, Table} from "typeorm";
+import {MigrationInterface, QueryRunner, Table} from "typeorm"
 
 export class CreateSurveys1614216700780 implements MigrationInterface {
 

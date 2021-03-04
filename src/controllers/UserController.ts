@@ -1,6 +1,6 @@
-import { Request, Response } from "express";
-import { getCustomRepository } from "typeorm";
-import { UserRepository } from "../repositories/UsersRepository";
+import { Request, Response } from "express"
+import { getCustomRepository } from "typeorm"
+import { UserRepository } from "../repositories/UsersRepository"
 
 class UserController {
   async create(request: Request, response: Response) {
@@ -30,5 +30,5 @@ class UserController {
   }
 }
 
-export { UserController };
+export { UserController }
 
